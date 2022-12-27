@@ -7,3 +7,5 @@ export { Customer } from './lib/customers/customer.model';
 export { Project } from './lib/projects/project.model';
 export { ProjectsService } from './lib/projects/projects.service';
 export { CustomersFacade } from './lib/state/customers/customers.facade';
+// Expose projects state to any other module that might want to use it
+export { ProjectsState } from './lib/state/projects/projects.reducer'
