@@ -10,3 +10,4 @@ export { CustomersFacade } from './lib/state/customers/customers.facade';
 
 // Expose projects state
 export { ProjectsState } from './lib/state/projects/projects.reducer';
+export { AddProject, UpdateProject, DeleteProject, SelectProject }  from './lib/state/projects/projects.actions';
